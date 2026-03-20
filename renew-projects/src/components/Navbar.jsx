@@ -17,8 +17,7 @@ export default function Navbar() {
   }, []);
 
   useEffect(() => {
-    if (menuOpen) setMenuOpen(false);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    setMenuOpen(false);
   }, [active]);
 
   const handleNavClick = (id) => {
