@@ -15,7 +15,7 @@ export default function SectionHeader({ label, title, dark = false }) {
         fontSize: 'clamp(30px, 5vw, 54px)',
         letterSpacing: '-0.5px',
         lineHeight: 1,
-        color: dark ? '#f0ece4' : C.text,
+        color: dark ? 'rgba(255,255,255,0.75)' : C.text,
       }}>
         {title}
       </h2>
