@@ -40,9 +40,8 @@ import pt_before1 from '../assets/gallery/Painting/buiders-before1.jpg';
 import pt_before2 from '../assets/gallery/Painting/builders-before2.jpg';
 import pt_after1  from '../assets/gallery/Painting/buiders-afrer1.jpg';
 import pt_after2  from '../assets/gallery/Painting/builders-after2.jpg';
-import pt_after3  from '../assets/gallery/Painting/school-after.jpg';
-import pt_after4  from '../assets/gallery/Painting/school-after1.jpg';
-import pt_after5  from '../assets/gallery/Painting/school-after2.jpg';
+import pt_after3  from '../assets/gallery/Painting/school-after1.jpg';
+import pt_after4  from '../assets/gallery/Painting/school-after2.jpg';
 
 // ─── Paving ──────────────────────────────────────────────────────────────────
 import pv_before1 from '../assets/gallery/Paving/paving-before1.jpg';
@@ -111,7 +110,7 @@ const CATEGORIES = [
     images: [
       { src: pt_before1, stage: 'Before' }, { src: pt_before2, stage: 'Before' },
       { src: pt_after1, stage: 'After' }, { src: pt_after2, stage: 'After' }, { src: pt_after3, stage: 'After' },
-      { src: pt_after4, stage: 'After' }, { src: pt_after5, stage: 'After' },
+      { src: pt_after4, stage: 'After' },
     ],
   },
   {
