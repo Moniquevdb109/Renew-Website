@@ -10,7 +10,7 @@ const EMAILJS_TEMPLATE_ID = 'template_tvtxxin';
 const EMAILJS_PUBLIC_KEY  = 'nlE_THktJQsE5Tit1';
 
 const CONTACT_ITEMS = [
-  { label: 'Email', value: 'ampaint@mweb.co.za', icon: '✉' },
+  { label: 'Email', value: 'charl@renewprojects.co.za', icon: '✉' },
   { label: 'Phone', value: '082 572 5485', icon: '☎' },
   { label: 'Address', value: '52 Marlynhoek Street, Meerensee, Richards Bay, 3901', icon: '📍' },
 ];
@@ -81,7 +81,7 @@ function ContactForm() {
 
       {status === 'error' && (
         <div style={{ background: '#fff3f3', border: `1px solid #f5c6c6`, borderRadius: 2, padding: '10px 14px', fontSize: 13, color: '#c0392b', marginBottom: 12 }}>
-          Something went wrong. Please try again or email us directly at <strong>ampaint@mweb.co.za</strong>.
+          Something went wrong. Please try again or email us directly at <strong>charl@renewprojects.co.za</strong>.
         </div>
       )}
 

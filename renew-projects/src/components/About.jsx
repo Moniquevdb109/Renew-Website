@@ -31,12 +31,7 @@ export default function About() {
           <p style={{ fontSize: 16, color: C.textMid, lineHeight: 1.85, marginBottom: 36 }}>
             With decades of experience and a commitment to using the right products for every job, we guarantee long-term savings in both time and money.
           </p>
-          <div style={{ borderLeft: `3px solid ${C.red}`, paddingLeft: 20 }}>
-            <p style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: isMobile ? 19 : 22, fontStyle: 'italic', color: C.text, lineHeight: 1.4, marginBottom: 8 }}>
-              "Assuring you of our best attention at all times!"
-            </p>
-            <p style={{ fontSize: 14, color: C.textMuted }}>— Charl van den Berg</p>
-          </div>
+
         </div>
 
         <div>

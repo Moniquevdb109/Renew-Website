@@ -4,18 +4,18 @@ import SectionHeader from './shared/SectionHeader';
 import { useBreakpoint } from '../hooks/useWindowSize';
 
 const CLIENTS = [
-  { name: 'William Smith', company: 'Smith Select Properties' },
-  { name: 'Candice Permula', company: 'Motus Corp – Renault Pinetown' },
-  { name: 'Geoff Legward', company: 'Property Diagnostic Consulting' },
-  { name: 'Jan Joubert', company: 'Bell Equipment SA (BECSA)' },
-  { name: 'Sybil John', company: 'Richards Bay Medical Centre' },
-  { name: 'Jean Schoonhoven', company: 'The BON Hotel Waterfront' },
-  { name: 'Marina Hugo', company: 'Toyota Richards Bay' },
-  { name: 'Riana Matthee', company: 'Boardwalk Mall Richards Bay' },
-  { name: 'Mario Monica', company: 'Premier Hotel The Richards' },
-  { name: 'Tenielle Heymans', company: 'Splendid Hotel Bayshore Inn' },
-  { name: 'JP Pontes', company: "Ocean's Rest" },
-  { name: 'Johan Roux', company: 'Meerensee Mews' },
+  'Smith Select Properties',
+  'Motus Corp – Renault Pinetown',
+  'Property Diagnostic Consulting',
+  'Bell Equipment SA (BECSA)',
+  'Richards Bay Medical Centre',
+  'The BON Hotel Waterfront',
+  'Toyota Richards Bay',
+  'Boardwalk Mall Richards Bay',
+  'Premier Hotel The Richards',
+  'Splendid Hotel Bayshore Inn',
+  "Ocean's Rest",
+  'Meerensee Mews',
 ];
 
 const PREVIEW = 6;
@@ -31,14 +31,13 @@ export default function Clients() {
       <div style={{ maxWidth: 1200, margin: '0 auto' }}>
         <SectionHeader label="References" title="Trusted By" />
         <div style={{ display: 'grid', gridTemplateColumns: cols, gap: 12 }}>
-          {shown.map((c) => (
-            <div key={c.name} style={{
+          {shown.map((company) => (
+            <div key={company} style={{
               background: C.bg, border: `1px solid ${C.border}`,
               borderRadius: 3, padding: 20,
               display: 'flex', flexDirection: 'column', gap: 4,
             }}>
-              <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: 17, color: C.text }}>{c.name}</div>
-              <div style={{ fontSize: 13, color: C.textMuted, lineHeight: 1.4, marginBottom: 12 }}>{c.company}</div>
+              <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: 22, color: C.text, lineHeight: 1.3, marginBottom: 12 }}>{company}</div>
               <button
                 onClick={() => scrollTo('contact')}
                 style={{

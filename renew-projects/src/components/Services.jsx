@@ -9,6 +9,7 @@ const SERVICES = [
   { icon: '🔨', title: 'Building Renovations', desc: 'Structural crack repairs, spalling & plaster repairs, expansion joints, construction joints and polyurethane sealing.' },
   { icon: '🖌️', title: 'Professional Painting', desc: 'Industrial, commercial and residential painting — walls, ceilings, soffits, metal doors, timber, road markings and floor coatings.' },
   { icon: '⚠️', title: 'Asbestos Roof Removal', desc: 'Safe and fully compliant removal of asbestos roofing material by experienced professionals following all safety protocols.' },
+  { icon: '🧱', title: 'Paving', desc: 'Supply and installation of residential and commercial paving — driveways, walkways, parking areas and decorative finishes.' },
 ];
 
 export { SERVICES };
