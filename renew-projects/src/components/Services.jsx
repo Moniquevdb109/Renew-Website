@@ -10,13 +10,14 @@ const SERVICES = [
   { icon: '🖌️', title: 'Professional Painting', desc: 'Industrial, commercial and residential painting — walls, ceilings, soffits, metal doors, timber, road markings and floor coatings.' },
   { icon: '⚠️', title: 'Asbestos Roof Removal', desc: 'Safe and fully compliant removal of asbestos roofing material by experienced professionals following all safety protocols.' },
   { icon: '🧱', title: 'Paving', desc: 'Supply and installation of residential and commercial paving — driveways, walkways, parking areas and decorative finishes.' },
+  { icon: '🪟', title: 'Tiling', desc: 'Professional floor and wall tiling for residential and commercial properties — bathrooms, kitchens, patios and more.' },
 ];
 
 export { SERVICES };
 
 export default function Services() {
   const { isMobile, isTablet } = useBreakpoint();
-  const cols = isMobile ? '1fr' : isTablet ? 'repeat(2, 1fr)' : 'repeat(3, 1fr)';
+  const cols = isMobile ? '1fr' : isTablet ? 'repeat(2, 1fr)' : 'repeat(4, 1fr)';
 
   return (
     <section id="services" style={{ background: C.white, padding: 'clamp(60px, 8vw, 100px) clamp(1.25rem, 4vw, 2rem)' }}>

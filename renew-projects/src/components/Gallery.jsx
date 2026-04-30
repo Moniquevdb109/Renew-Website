@@ -212,9 +212,15 @@ function Carousel({ images, onOpen }) {
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 10, marginTop: 20 }}>
         <button onClick={prev} disabled={index === 0} style={{ width: 40, height: 40, borderRadius: '50%', border: '1px solid #555', background: index === 0 ? 'transparent' : '#333', color: index === 0 ? '#555' : '#ddd', fontSize: 20, cursor: index === 0 ? 'default' : 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>‹</button>
 
-        {Array.from({ length: max + 1 }).map((_, i) => (
-          <button key={i} onClick={() => setIndex(i)} style={{ width: i === index ? 24 : 8, minWidth: i === index ? 24 : 8, height: 8, borderRadius: 4, border: 'none', background: i === index ? '#b0291e' : '#555', cursor: 'pointer', transition: 'all 0.3s', padding: 0 }} />
-        ))}
+        {isMobile ? (
+          <span style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: 13, color: '#888', letterSpacing: '1px' }}>
+            {index + 1} / {max + 1}
+          </span>
+        ) : (
+          Array.from({ length: max + 1 }).map((_, i) => (
+            <button key={i} onClick={() => setIndex(i)} style={{ width: i === index ? 24 : 8, minWidth: i === index ? 24 : 8, height: 8, borderRadius: 4, border: 'none', background: i === index ? '#b0291e' : '#555', cursor: 'pointer', transition: 'all 0.3s', padding: 0 }} />
+          ))
+        )}
 
         <button onClick={next} disabled={index === max} style={{ width: 40, height: 40, borderRadius: '50%', border: '1px solid #555', background: index === max ? 'transparent' : '#333', color: index === max ? '#555' : '#ddd', fontSize: 20, cursor: index === max ? 'default' : 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>›</button>
       </div>
