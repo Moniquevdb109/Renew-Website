@@ -5,12 +5,12 @@ import { useBreakpoint } from '../hooks/useWindowSize';
 const SERVICES = [
   { icon: '🏠', title: 'Roof Maintenance', desc: 'Cement tiled, corrugated, flat roof sheets, asbestos and all major roof types serviced and repaired.' },
   { icon: '💧', title: 'Waterproofing', desc: 'Flat roofs, roof sheeting, cladding and tiled roofs. Full damp proofing and waterproofing systems.' },
-  { icon: '🚗', title: 'Carports & Blinds', desc: 'Custom carport installation and blind supply & fitting for residential and commercial properties.' },
+  { icon: '🏗️', title: 'Paving & Tiling', desc: 'Supply and installation of residential and commercial paving and tiling — driveways, walkways, parking areas, bathrooms, kitchens, patios and more.' },
+  { icon: '🔩', title: 'Steel Structures', desc: 'Design and erection of steel structures for industrial, commercial and residential use — carports, canopies, warehouses and custom fabrication.' },
+  { icon: '🪟', title: 'Blinds', desc: 'Supply and fitting of quality blinds for residential and commercial properties — roller, venetian, vertical and blackout options available.' },
   { icon: '🔨', title: 'Building Renovations', desc: 'Structural crack repairs, spalling & plaster repairs, expansion joints, construction joints and polyurethane sealing.' },
   { icon: '🖌️', title: 'Professional Painting', desc: 'Industrial, commercial and residential painting — walls, ceilings, soffits, metal doors, timber, road markings and floor coatings.' },
   { icon: '⚠️', title: 'Asbestos Roof Removal', desc: 'Safe and fully compliant removal of asbestos roofing material by experienced professionals following all safety protocols.' },
-  { icon: '🧱', title: 'Paving', desc: 'Supply and installation of residential and commercial paving — driveways, walkways, parking areas and decorative finishes.' },
-  { icon: '🪟', title: 'Tiling', desc: 'Professional floor and wall tiling for residential and commercial properties — bathrooms, kitchens, patios and more.' },
 ];
 
 export { SERVICES };
