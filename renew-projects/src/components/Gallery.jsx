@@ -98,8 +98,8 @@ const CATEGORIES = [
   {
     id: 'complex-projects', label: 'Complex Projects',
     images: [
-      { src: cp_after, stage: 'After' }, { src: cp_after1, stage: 'After' }, { src: cp_after2, stage: 'After' },
-      { src: cp_after3, stage: 'After' }, { src: cp_after4, stage: 'After' }, { src: cp_after5, stage: 'After' },
+      { src: cp_after1, stage: 'After' }, { src: cp_after2, stage: 'After' }, { src: cp_after3, stage: 'After' },
+      { src: cp_after4, stage: 'After' }, { src: cp_after5, stage: 'After' }, { src: cp_after6, stage: 'After' },
     ],
   },
   {
