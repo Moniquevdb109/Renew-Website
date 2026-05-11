@@ -4,20 +4,30 @@ import SectionHeader from './shared/SectionHeader';
 import { useBreakpoint } from '../hooks/useWindowSize';
 
 // ─── Waterproofing ───────────────────────────────────────────────────────────
-import wp_before1 from '../assets/gallery/Waterproofing/wp-before1.jpg';
-import wp_before2 from '../assets/gallery/Waterproofing/wp-before2.jpg';
-import wp_before3 from '../assets/gallery/Waterproofing/wp-before3.jpg';
-import wp_during1 from '../assets/gallery/Waterproofing/wp-during1.jpg';
-import wp_during2 from '../assets/gallery/Waterproofing/wp-during2.jpg';
-import wp_during3 from '../assets/gallery/Waterproofing/wp-during3.jpg';
-import wp_during4 from '../assets/gallery/Waterproofing/wp-during4.jpg';
-import wp_during5 from '../assets/gallery/Waterproofing/wp-during5.jpg';
-import wp_during6 from '../assets/gallery/Waterproofing/wp-during6.jpg';
-import wp_after1  from '../assets/gallery/Waterproofing/wp-after1.jpg';
-import wp_after2  from '../assets/gallery/Waterproofing/wp-after2.jpg';
-import wp_after3  from '../assets/gallery/Waterproofing/wp-after3.jpg';
-import wp_after4  from '../assets/gallery/Waterproofing/wp-after4.jpg';
-import wp_after5  from '../assets/gallery/Waterproofing/wp-after5.jpg';
+import wp_before1 from '../assets/gallery/Waterproofing/wp-before1.jpeg';
+import wp_before2 from '../assets/gallery/Waterproofing/wp-before2.jpeg';
+import wp_during1 from '../assets/gallery/Waterproofing/wp-during1.jpeg';
+import wp_during2 from '../assets/gallery/Waterproofing/wp-during2.jpeg';
+import wp_during3 from '../assets/gallery/Waterproofing/wp-during3.jpeg';
+import wp_during4 from '../assets/gallery/Waterproofing/wp-during4.jpeg';
+import wp_during5 from '../assets/gallery/Waterproofing/wp-during5.jpeg';
+import wp_during6 from '../assets/gallery/Waterproofing/wp-during6.jpeg';
+import wp_after1  from '../assets/gallery/Waterproofing/wp-after1.jpeg';
+import wp_after2  from '../assets/gallery/Waterproofing/wp-after2.jpeg';
+import wp_after3  from '../assets/gallery/Waterproofing/wp-after3.jpeg';
+import wp_after4  from '../assets/gallery/Waterproofing/wp-after4.jpeg';
+import wp_after5  from '../assets/gallery/Waterproofing/wp-after5.jpeg';
+import wp_after6  from '../assets/gallery/Waterproofing/wp-after6.jpeg';
+import wp_after7  from '../assets/gallery/Waterproofing/wp-after7.jpeg';
+import wp_after8  from '../assets/gallery/Waterproofing/wp-after8.jpeg';
+
+// ─── Complex Projects ────────────────────────────────────────────────────────
+import cp_after  from '../assets/gallery/Complex Projects/complex-after.jpeg';
+import cp_after1 from '../assets/gallery/Complex Projects/complex-after1.jpeg';
+import cp_after2 from '../assets/gallery/Complex Projects/complex-after2.jpeg';
+import cp_after3 from '../assets/gallery/Complex Projects/complex-after3.jpeg';
+import cp_after4 from '../assets/gallery/Complex Projects/complex-after4.jpeg';
+import cp_after5 from '../assets/gallery/Complex Projects/complex-after5.jpeg';
 
 // ─── Warehouse Flooring ──────────────────────────────────────────────────────
 import wf_before1 from '../assets/gallery/Warehouse Flooring/flooring-before1.jpg';
@@ -77,11 +87,19 @@ const CATEGORIES = [
   {
     id: 'waterproofing', label: 'Waterproofing',
     images: [
-      { src: wp_before1, stage: 'Before' }, { src: wp_before2, stage: 'Before' }, { src: wp_before3, stage: 'Before' },
+      { src: wp_before1, stage: 'Before' }, { src: wp_before2, stage: 'Before' },
       { src: wp_during1, stage: 'During' }, { src: wp_during2, stage: 'During' }, { src: wp_during3, stage: 'During' },
       { src: wp_during4, stage: 'During' }, { src: wp_during5, stage: 'During' }, { src: wp_during6, stage: 'During' },
       { src: wp_after1, stage: 'After' }, { src: wp_after2, stage: 'After' }, { src: wp_after3, stage: 'After' },
-      { src: wp_after4, stage: 'After' }, { src: wp_after5, stage: 'After' },
+      { src: wp_after4, stage: 'After' }, { src: wp_after5, stage: 'After' }, { src: wp_after6, stage: 'After' },
+      { src: wp_after7, stage: 'After' }, { src: wp_after8, stage: 'After' },
+    ],
+  },
+  {
+    id: 'complex-projects', label: 'Complex Projects',
+    images: [
+      { src: cp_after, stage: 'After' }, { src: cp_after1, stage: 'After' }, { src: cp_after2, stage: 'After' },
+      { src: cp_after3, stage: 'After' }, { src: cp_after4, stage: 'After' }, { src: cp_after5, stage: 'After' },
     ],
   },
   {
