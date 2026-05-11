@@ -22,12 +22,12 @@ import wp_after7  from '../assets/gallery/Waterproofing/wp-after7.jpeg';
 import wp_after8  from '../assets/gallery/Waterproofing/wp-after8.jpeg';
 
 // ─── Complex Projects ────────────────────────────────────────────────────────
-import cp_after  from '../assets/gallery/Complex Projects/complex-after.jpeg';
 import cp_after1 from '../assets/gallery/Complex Projects/complex-after1.jpeg';
 import cp_after2 from '../assets/gallery/Complex Projects/complex-after2.jpeg';
 import cp_after3 from '../assets/gallery/Complex Projects/complex-after3.jpeg';
 import cp_after4 from '../assets/gallery/Complex Projects/complex-after4.jpeg';
 import cp_after5 from '../assets/gallery/Complex Projects/complex-after5.jpeg';
+import cp_after6 from '../assets/gallery/Complex Projects/complex-after6.jpeg';
 
 // ─── Warehouse Flooring ──────────────────────────────────────────────────────
 import wf_before1 from '../assets/gallery/Warehouse Flooring/flooring-before1.jpg';
